@@ -276,7 +276,7 @@ export default function Index() {
             ].map((service, index) => (
               <Card
                 key={index}
-                className="group hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-blue-00/30 to-teravita-200/30 overflow-hidden"
+                className="group hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-blue-200/30 to-teravita-200/30 overflow-hidden"
               >
                 <CardContent className="p-8">
                   <div className="w-16 h-16 bg-gradient-to-br from-primary via-primary to-teravita-500 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
