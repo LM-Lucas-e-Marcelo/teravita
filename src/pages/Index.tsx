@@ -43,37 +43,37 @@ export default function Index() {
             <nav className="hidden md:flex items-center space-x-6">
               <a
                 href="#inicio"
-                className="text-white hover:text-primary transition-colors"
+                className="text-white hover:underline transition-colors"
               >
                 Início
               </a>
               <a
                 href="#servicos"
-                className="text-white hover:text-primary transition-colors"
+                className="text-white hover:underline transition-colors"
               >
                 Serviços
               </a>
               <a
                 href="#sobre"
-                className="text-white hover:text-primary transition-colors"
+                className="text-white hover:underline transition-colors"
               >
                 Sobre Nós
               </a>
               <a
                 href="#depoimentos"
-                className="text-white hover:text-primary transition-colors"
+                className="text-white hover:underline transition-colors"
               >
                 Depoimentos
               </a>
               <a
                 href="#faq"
-                className="text-white hover:text-primary transition-colors"
+                className="text-white hover:underline transition-colors"
               >
                 FAQ
               </a>
               <a
                 href="#contato"
-                className="text-white hover:text-primary transition-colors"
+                className="text-white hover:underline transition-colors"
               >
                 Contato
               </a>
