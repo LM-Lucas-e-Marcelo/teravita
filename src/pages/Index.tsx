@@ -32,7 +32,7 @@ import {
 
 export default function Index() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen scroll-smooth">
       {/* Header */}
       <header className="sticky top-0 z-50 bg-gradient-to-r from-primary to-teravita-500">
         <div className="container mx-auto px-4 lg:px-6">
