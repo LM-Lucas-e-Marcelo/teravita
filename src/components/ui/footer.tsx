@@ -1,4 +1,5 @@
 import logo from "@/assets/teravita.png";
+import { SocialMedias } from "./social-medias";
 
 export const Footer = () => {
   return (
@@ -13,6 +14,7 @@ export const Footer = () => {
               Clínica de Terapias especializada em cuidar da sua saúde mental
               com carinho e profissionalismo.
             </p>
+            <SocialMedias />
           </div>
 
           <div>
