@@ -42,8 +42,12 @@ export const Hero = () => {
               >
                 Agendar Consulta
               </Button>
-              <a href="#servicos">
-                <Button variant="outline" size="lg" className="text-lg">
+              <a href="#servicos" className="w-full sm:w-auto">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-lg w-full sm:w-auto"
+                >
                   Conhecer Serviços
                 </Button>
               </a>
