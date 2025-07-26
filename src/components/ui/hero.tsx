@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Heart, Star, CheckCircle } from "lucide-react";
+import girl from "@/assets/hero/girl.jpeg";
+import happyGirl from "@/assets/hero/happy_girl.png";
+import women from "@/assets/hero/women.jpeg";
+import { SocialMedias } from "./social-medias";
 
 export const Hero = () => {
   const handleRedirectToWhatsapp = () => {
@@ -44,7 +48,8 @@ export const Hero = () => {
                 </Button>
               </a>
             </div>
-            <div className="flex items-center gap-6 pt-4">
+            <SocialMedias />
+            <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
@@ -64,7 +69,7 @@ export const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-primary via-primary to-teravita-500 p-8">
               <img
-                src="https://psicologiametepec.com/wp-content/uploads/2021/08/f7d01343-ed71-4106-b5d9-6fc1b3997044-770x499.jpeg"
+                src={women}
                 alt="Terapeuta trabalhando com criança"
                 className="w-full h-[400px] object-cover rounded-xl"
               />
@@ -90,7 +95,7 @@ export const Hero = () => {
             <div className="absolute top-8 -left-8 hidden lg:block">
               <div className="w-32 h-32 rounded-xl overflow-hidden shadow-lg border-4 border-white rotate-12">
                 <img
-                  src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=400&fit=crop&crop=face"
+                  src={girl}
                   alt="Criança feliz em terapia"
                   className="w-full h-full object-cover"
                 />
@@ -100,7 +105,7 @@ export const Hero = () => {
             <div className="absolute bottom-20 -right-8 hidden lg:block">
               <div className="w-28 h-28 rounded-xl overflow-hidden shadow-lg border-4 border-white -rotate-12">
                 <img
-                  src="https://interfisio.com.br/wp-content/uploads/2016/11/crian%C3%A7a-feliz-barulhenta-inquieta.png"
+                  src={happyGirl}
                   alt="Criança brincando"
                   className="w-full h-full object-cover"
                 />

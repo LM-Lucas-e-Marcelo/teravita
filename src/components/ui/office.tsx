@@ -1,15 +1,27 @@
-import office1 from "@/assets/office/office1.jpg";
-import office2 from "@/assets/office/office2.jpg";
-import office3 from "@/assets/office/office3.jpg";
-import office4 from "@/assets/office/office4.jpg";
-import office5 from "@/assets/office/office5.jpg";
-import office6 from "@/assets/office/office6.jpg";
-import office7 from "@/assets/office/office7.jpg";
-import office8 from "@/assets/office/office8.jpg";
-import office9 from "@/assets/office/office9.jpg";
-import office10 from "@/assets/office/office10.jpg";
+import mini1 from "@/assets/office/mini1.jpg";
+import mini2 from "@/assets/office/mini2.jpg";
+import mini3 from "@/assets/office/mini3.jpg";
+import mini4 from "@/assets/office/mini4.jpg";
+import mini5 from "@/assets/office/mini5.jpg";
+import mini6 from "@/assets/office/mini6.jpg";
+import mini7 from "@/assets/office/mini7.jpg";
+import mini8 from "@/assets/office/mini8.jpg";
+import mini9 from "@/assets/office/mini9.jpg";
+import mini10 from "@/assets/office/mini10.jpg";
+import { OfficePreviewModal } from "./office-preview";
+import { useState } from "react";
 
 export const Office = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const handleImageClick = (imageUrl: string) => {
+    setSelectedImage(imageUrl);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <section
       id="sobre"
@@ -27,80 +39,110 @@ export const Office = () => {
             segura.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-4 mt-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
           <div className="space-y-4">
-            <div className="aspect-square rounded-xl bg-primary/10 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini1)}
+              className="aspect-square rounded-xl bg-primary/10 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office1}
+                src={mini1}
                 alt="Consultório"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
-            <div className="aspect-[4/3] rounded-xl bg-accent/20 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini2)}
+              className="aspect-[4/3] rounded-xl bg-accent/20 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office2}
+                src={mini2}
                 alt="Sala de terapia"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
           </div>
           <div className="space-y-4 mt-8">
-            <div className="aspect-[4/2] rounded-xl bg-primary/10 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini3)}
+              className="aspect-[4/2] rounded-xl bg-primary/10 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office3}
+                src={mini3}
                 alt="Consultório"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
-            <div className="aspect-[4/3] rounded-xl bg-primary/10 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini4)}
+              className="aspect-[4/3] rounded-xl bg-primary/10 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office4}
+                src={mini4}
                 alt="Consultório"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
-            <div className="aspect-[4/2] rounded-xl bg-accent/20 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini5)}
+              className="aspect-[4/2] rounded-xl bg-accent/20 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office5}
+                src={mini5}
                 alt="Sala de terapia"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
           </div>
           <div className="space-y-4">
-            <div className="aspect-[4/3] rounded-xl bg-primary/10 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini6)}
+              className="aspect-[4/3] rounded-xl bg-primary/10 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office6}
+                src={mini6}
                 alt="Consultório"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
-            <div className="aspect-[4/4] rounded-xl bg-accent/20 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini7)}
+              className="aspect-[4/4] rounded-xl bg-accent/20 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office7}
+                src={mini7}
                 alt="Sala de terapia"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
           </div>
           <div className="space-y-4 mt-8">
-            <div className="aspect-[4/2] rounded-xl bg-secondary/20 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini8)}
+              className="aspect-[4/2] rounded-xl bg-secondary/20 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office8}
+                src={mini8}
                 alt="Espaço infantil"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
-            <div className="aspect-[4/3] rounded-xl bg-secondary/20 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini9)}
+              className="aspect-[4/3] rounded-xl bg-secondary/20 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office9}
+                src={mini9}
                 alt="Espaço infantil"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
-            <div className="aspect-[4/2] rounded-xl bg-muted/40 overflow-hidden">
+            <div
+              onClick={() => handleImageClick(mini10)}
+              className="aspect-[4/2] rounded-xl bg-muted/40 overflow-hidden cursor-pointer"
+            >
               <img
-                src={office10}
+                src={mini10}
                 alt="Recepção"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
               />
@@ -108,6 +150,11 @@ export const Office = () => {
           </div>
         </div>
       </div>
+      <OfficePreviewModal
+        isOpen={!!selectedImage}
+        imageUrl={selectedImage || ""}
+        onClose={handleCloseModal}
+      />
     </section>
   );
 };
