@@ -1,4 +1,8 @@
 import { Heart, Users, Shield } from "lucide-react";
+import mini9 from "@/assets/office/mini9.jpg";
+import mini4 from "@/assets/office/mini4.jpg";
+import mini6 from "@/assets/office/mini6.jpg";
+import mini7 from "@/assets/office/mini7.jpg";
 
 export const About = () => {
   return (
@@ -78,14 +82,14 @@ export const About = () => {
             <div className="space-y-4">
               <div className="aspect-square rounded-xl bg-primary/10 overflow-hidden">
                 <img
-                  src="https://www.psicologo.com.br/wp-content/uploads/terapia-infantil-psicologo.jpg"
+                  src={mini4}
                   alt="Consultório"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-[4/3] rounded-xl bg-accent/20 overflow-hidden">
                 <img
-                  src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdHAufGAQ9yB8nj2yk16dxYYRLz9KjbX4azk_e8ph8iRxBGSOiej4Fi8lQnWv2CrB4VODBPKRcgwPUTSc5zO2sxau7qrysaPbNIjn0M2ZxnA9ZnacKC-BbMYOiarv-SthsiaSLqig?key=BfO5PGwMP_lQDnMw4kIPwV_E"
+                  src={mini6}
                   alt="Sala de terapia"
                   className="w-full h-full object-cover"
                 />
@@ -94,14 +98,14 @@ export const About = () => {
             <div className="space-y-4 mt-8">
               <div className="aspect-[4/3] rounded-xl bg-secondary/20 overflow-hidden">
                 <img
-                  src="https://www.psicologo.com.br/wp-content/uploads/terapia-infantil-psicologo.jpg"
+                  src={mini7}
                   alt="Espaço infantil"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-square rounded-xl bg-muted/40 overflow-hidden">
                 <img
-                  src="https://inpaonline.com.br/wp-content/uploads/2024/12/terapia-infantil-1024x597.jpg"
+                  src={mini9}
                   alt="Recepção"
                   className="w-full h-full object-cover"
                 />
