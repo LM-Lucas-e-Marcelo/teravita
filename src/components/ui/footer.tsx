@@ -24,7 +24,7 @@ export const Footer = () => {
                 "Terapia Ocupacional",
                 "Nutrição",
                 "Fonoaudiologia",
-                "Psicologia e Psicoterapia",
+                "Psicoterapia",
                 "Programas de Habilidades Sociais",
                 "Terapia Comportamental Aplicada (ABA)",
                 "Fisioterapia Motora",

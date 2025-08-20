@@ -14,24 +14,28 @@ export const About = () => {
               Sobre Nós
             </h2>
             <p className="text-lg text-muted-foreground">
-              A TeraVita é uma clínica especializada em terapias voltada para o
-              cuidado integral da saúde mental de crianças e adolescentes.
-              Fundada em 2018, nasceu do sonho de oferecer um espaço acolhedor,
-              seguro e personalizado, onde cada paciente e sua família encontram
-              suporte para superar desafios e desenvolver todo o seu potencial.
+              A TeraVita é uma clínica multidisciplinar que nasceu do desejo de
+              oferecer um espaço acolhedor, humano e especializado para o
+              desenvolvimento integral de crianças e adolescentes. Nosso
+              trabalho é pautado na união de diferentes áreas da saúde, atuando
+              de forma integrada para atender às necessidades individuais de
+              cada paciente e promover conquistas reais em sua autonomia,
+              comunicação, cognição e habilidades motoras.
             </p>
             <p className="text-lg text-muted-foreground">
-              Nosso compromisso é com o bem-estar e o desenvolvimento pleno,
-              respeitando o ritmo, as necessidades e as singularidades de cada
-              criança. Para isso, contamos com uma equipe multidisciplinar
-              formada por psicólogos, terapeutas ocupacionais e analistas do
-              comportamento (ABA), que atuam de forma integrada para garantir um
-              atendimento completo e humanizado.
+              Contamos com profissionais qualificados nas áreas de ABA, terapia
+              ocupacional, fonoaudiologia, psicomotricidade, fisioterapia motora
+              com foco em CME, musicoterapia, terapia alimentar e terapia
+              cognitivo-comportamental. Essa diversidade de abordagens nos
+              permite construir planos terapêuticos personalizados, sempre
+              valorizando o potencial de cada indivíduo e envolvendo a família
+              em todo o processo.
             </p>
             <p className="text-lg text-muted-foreground">
-              Mais do que uma clínica, a TeraVita é uma parceira no crescimento
-              dos seus filhos — apoiando cada etapa da jornada com empatia,
-              conhecimento técnico e atenção individualizada.
+              Mais do que terapias, oferecemos cuidado contínuo e afetivo,
+              celebrando cada etapa da evolução. Acreditamos que cuidar é
+              transformar, e é com esse propósito que caminhamos junto com
+              nossos pacientes e suas famílias todos os dias.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-4">

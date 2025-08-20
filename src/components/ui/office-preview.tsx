@@ -17,7 +17,7 @@ export const OfficePreviewModal = ({
         <img
           src={imageUrl}
           alt="Preview"
-          className="w-full h-auto object-contain max-h-[90vh]"
+          className="h-auto object-contain max-h-[90vh] rounded-xl"
         />
       </DialogContent>
     </Dialog>

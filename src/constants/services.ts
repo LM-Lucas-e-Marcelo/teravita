@@ -51,9 +51,9 @@ export const SERVICES = [
   },
   {
     icon: Heart,
-    title: "Psicologia e Psicoterapia",
+    title: "Psicoterapia",
     description:
-      "Atendimento individual ou em grupo para promover saúde emocional, autoconhecimento e bem-estar. Avaliações e acompanhamentos feitos por psicólogos experientes com abordagens personalizadas.",
+      "Atendimento individual ou em grupo para favorecer o bem-estar e o autoconhecimento. Avaliações e acompanhamentos feitos por psicólogos experientes, com abordagens personalizadas.",
     features: [
       "Questões emocionais e comportamentais",
       "Psicoterapia infantil e adolescente",
