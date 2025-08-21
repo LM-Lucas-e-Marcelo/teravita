@@ -32,9 +32,6 @@ export const Contact = () => {
                     Telefone
                   </h3>
                   <p className="text-muted-foreground">
-                    <a href="tel:2141414725">(21) 4141-4725</a>
-                  </p>
-                  <p className="text-muted-foreground">
                     <a href="tel:21964441924">(21) 96444-1924</a>
                   </p>
                 </CardContent>
@@ -81,8 +78,8 @@ export const Contact = () => {
                       Horário de Funcionamento
                     </h3>
                     <div className="space-y-1 text-muted-foreground">
-                      <p>Segunda a Sexta: 9h às 18h</p>
-                      <p>Sábado: 10h às 14h</p>
+                      <p>Segunda a Sexta: 8h às 17h</p>
+                      <p>Sábado: 08h às 12h</p>
                       <p>Domingo: Fechado</p>
                     </div>
                   </div>

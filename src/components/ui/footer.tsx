@@ -24,10 +24,10 @@ export const Footer = () => {
                 "Terapia Ocupacional",
                 "Nutrição",
                 "Fonoaudiologia",
-                "Psicoterapia",
+                "Psicoterapia com Abordagem em TCC - Terapia Cognitivo Comportamental",
                 "Programas de Habilidades Sociais",
-                "Terapia Comportamental Aplicada (ABA)",
-                "Fisioterapia Motora",
+                "Análise do Comportamento Aplicada (ABA)",
+                "Fisioterapia Motora - método Cuevas Medek Exercises (CME)",
                 "Terapia Alimentar",
                 "Musicoterapia",
               ].map((service) => (
@@ -39,9 +39,6 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold text-white mb-4">Contato</h3>
             <ul className="space-y-2 text-sm text-white">
-              <li className="text-white">
-                <a href="tel:2141414725">(21) 4141-4725</a>
-              </li>
               <li className="text-white">
                 <a href="tel:21964441924">(21) 96444-1924</a>
               </li>
@@ -58,8 +55,8 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold text-white mb-4">Horários</h3>
             <ul className="space-y-2 text-sm text-white">
-              <li>Segunda a Sexta: 9h às 18h</li>
-              <li>Sábado: 10h às 14h</li>
+              <li>Segunda a Sexta: 8h às 17h</li>
+              <li>Sábado: 08h às 12h</li>
               <li>Domingo: Fechado</li>
             </ul>
           </div>

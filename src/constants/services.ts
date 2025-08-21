@@ -72,7 +72,6 @@ export const SERVICES = [
     features: [
       "Comunicação interpessoal",
       "Resolução de conflitos",
-      "Resolução de conflitos",
       "Cooperação e empatia",
       "Autoconfiança nas relações sociais",
     ],

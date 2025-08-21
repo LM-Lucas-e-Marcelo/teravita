@@ -104,7 +104,7 @@ export const Questions = () => {
                 Como posso agendar uma avaliação ou terapia?
               </AccordionTrigger>
               <AccordionContent className="px-6 pb-4 text-muted-foreground">
-                Você pode agendar facilmente ligando para (21) 4141-4725, que
+                Você pode agendar facilmente ligando para (21) 96444-1924, que
                 também é nosso WhatsApp.
               </AccordionContent>
             </AccordionItem>
